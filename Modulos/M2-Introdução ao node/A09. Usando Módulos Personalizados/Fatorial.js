@@ -1,7 +1,7 @@
 //(function (exports, require, module, __filename, __dirname))
 
-//console.log("ID 1 => ")
-//console.log(module.id)
+console.log("ID 1 => ")
+console.log(module.id)
 
 const fatorial = (num) => {7
     if(num === 0) {
