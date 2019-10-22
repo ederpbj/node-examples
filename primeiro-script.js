@@ -1,4 +1,5 @@
 console.log("n-fatorial");
+console.log('Nome do arquivo: ',process.argv[1]);
 /*
 console.log(`Executando o script a partir do diretório ${process.cwd()}`);
 
