@@ -1,6 +1,6 @@
 //(function (exports, require, module, __filename, __dirname))
 
-console.log("ID 1 => ")
+console.log("ID 3 => ")
 console.log(module.id)
 
 const fatorial = (num) => {7

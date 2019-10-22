@@ -1,16 +1,11 @@
+//Importa só a função
+//const fatorial = require('./Fatorial').fatorial
+
+//importa tudo, mas foi definido export só da função
+const fatorial = require('./Fatorial')
+
 console.log("n-fatorial");
-console.log('Nome do arquivo: ',process.argv[1]);
-/*
-console.log(`Executando o script a partir do diretório ${process.cwd()}`);
-
-process.on('exit', ()=>{
-    console.log('script esta prestes a terminar')
-})
-*/
-
-
-//Arqumentos utilizados para startar o script
-//console.log(process.argv)
+//console.log('Nome do arquivo: ',process.argv[1]);
 
 const num = parseInt(process.argv[2]);
 
