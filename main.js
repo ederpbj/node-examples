@@ -8,13 +8,6 @@ process.on('exit', ()=>{
 })
 */
 
-const fatorial = (num) => {7
-    if(num === 0) {
-        return 1
-    }
-
-    return num * fatorial (num-1)
-}
 
 //Arqumentos utilizados para startar o script
 //console.log(process.argv)
