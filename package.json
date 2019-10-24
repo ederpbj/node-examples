@@ -19,5 +19,9 @@
   "homepage": "https://github.com/ederpbj/node-examples#readme",
   "dependencies": {
     "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.6",
+    "@types/yargs": "^13.0.3"
   }
 }
