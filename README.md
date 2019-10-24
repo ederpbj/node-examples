@@ -36,3 +36,18 @@ o	tsc --build tsconfig.json -w (Permance atualizando)
 
 	Testar novo arquivo gerado
 o	node dist/main.js --num=10
+
+12. Depuração em uma Aplicação Node.JS
+
+	Inspecionar, modo para inspeção debug
+o	node - -inspect dist/main.js - -num=9
+
+	Aguarda conexão da ferramenta debug
+o	node - -inspect-brk dist/main.js - -num=9
+
+	Debug usando chrome
+o	chrome://inspect
+
+	Startar monitor de mudanças .ts
+o	tsc -w
+o	node - -inspect-brk dist/main.js - -num=9
